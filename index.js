@@ -16,8 +16,8 @@ app.post('/exchange-token', async (req, res) => {
     return res.status(400).json({ error: 'Missing code or codeVerifier' });
   }
 
-  const clientId = 'nbQWgeJltAiwz_ubPywcB';
-  const redirectUri = 'http://localhost:2929';
+  const clientId = 'zW3rifmjGAZ2VZitnQoTq';
+  const redirectUri = 'http://6853cf86deae92273fc4ce67--tubular-sherbet-859cc3.netlify.app';
   const tokenEndpoint = 'https://login.passonline.dev/token';
 
   const requestBody = new URLSearchParams({
